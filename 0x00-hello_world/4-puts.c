@@ -1,3 +1,6 @@
+/**
+ *Documentation for the function. Simply printing a line.
+ */
 #include <stdio.h>
 int main(void)
 {

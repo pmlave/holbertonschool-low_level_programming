@@ -18,9 +18,10 @@ int main(void)
 		putchar(b);
 		if (a == 9 && b == 9)
 			break;
-
+		{
 		putchar(',');
 		putchar(' ');
+		}
 		}
 	}
 	putchar('\n');

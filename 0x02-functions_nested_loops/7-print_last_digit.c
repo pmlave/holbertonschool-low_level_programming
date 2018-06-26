@@ -2,6 +2,7 @@
 /**
  *print_last_digit - gives last digit of passed in number
  *@n: passed in character
+ *Description: Does a thing
  *Return: 0
  */
 

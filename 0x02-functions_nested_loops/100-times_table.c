@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *times_table - multiplication table
+ *print_times_table - multiplication table
  *@n: Passed in value
  *Return: none
  */
@@ -10,7 +10,7 @@ void print_times_table(int n)
 	int a;
 	int b;
 
-	if (n >0 && n < 16)
+	if (n > 0 && n < 16)
 	{
 	for (a = 0; a <= n; a++)
 	{

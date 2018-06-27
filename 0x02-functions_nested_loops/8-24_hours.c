@@ -15,7 +15,7 @@ void jack_bauer(void)
 		{
 			c = (a / 10);
 			d = (a % 10);
-			e = (b /10);
+			e = (b / 10);
 			f = (b % 10);
 			_putchar('0' + c);
 			_putchar('0' + d);

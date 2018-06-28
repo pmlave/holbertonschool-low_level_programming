@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	int long long x, y, z, a;
+	int long x, y, z, a;
 
-	x = 0;
-	y = 1;
+	x = 1;
+	y = 2;
 	for (a = 0; a < 50; a++)
 	{
 		z = x + y;
 		if (z < 0)
 			z = z * -1;
-		printf("%lli", x);
+		printf("%li", x);
 		if (a < 49)
 			printf(", ");
 		x = y;

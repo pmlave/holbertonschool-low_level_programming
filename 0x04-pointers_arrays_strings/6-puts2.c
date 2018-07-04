@@ -16,7 +16,7 @@ void puts2(char *str)
 	{
 		if (str[a] != '\0')
 		{
-			if (str[a] % 2 == 0)
+			if (str[a] % 2 == 0 || str[0])
 			{
 				_putchar(str[a]);
 			}

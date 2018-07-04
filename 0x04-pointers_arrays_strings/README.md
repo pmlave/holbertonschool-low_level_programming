@@ -6,3 +6,4 @@ Working with pointers
 3. Printing a string using new function _puts.
 4. Printing a string in reverse.
 5. Reversing a given string.
+6. Printing every other character in a string.

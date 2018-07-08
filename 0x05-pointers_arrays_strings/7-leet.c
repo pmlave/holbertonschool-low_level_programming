@@ -1,14 +1,14 @@
 #include "holberton.h"
-
 /**
- *leet - switching characters out with limited loops and conditionals
- *@s: given string
- *Description: See above
- *Return: pointer to string value
+ * leet - encode a string in 1337
+ * @s: String parameter passed in
+ * Description: See above
+ * Return: Pointer to String
  */
-
 char *leet(char *s)
+
 {
+
 	int i;
 	int j;
 	int k;
@@ -26,5 +26,6 @@ char *leet(char *s)
 			}
 		}
 	}
+
 	return (s);
 }

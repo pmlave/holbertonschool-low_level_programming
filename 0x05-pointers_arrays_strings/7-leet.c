@@ -8,7 +8,7 @@
 
 char *leet(char *s)
 {
-	char a[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int a[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int b[10] = {4, 4, 3, 3, 0, 0, 7, 7, 1, 1};
 	int i, j, k;
 
@@ -18,7 +18,7 @@ char *leet(char *s)
 		{
 			if (s[i] == a[j])
 			{
-				s[i] = '0' + b[k];
+				s[i] = b[k] + '0';
 			}
 		}
 	}

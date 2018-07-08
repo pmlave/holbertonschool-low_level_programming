@@ -1,12 +1,10 @@
 #include "holberton.h"
-
 /**
  *leet - switching characters out with limited loops and conditionals
  *@s: given string
  *Description: See above
  *Return: pointer to string value
  */
-
 char *leet(char *s)
 {
 	int i;
@@ -26,7 +24,6 @@ char *leet(char *s)
 			}
 		}
 	}
-
 
 	return (s);
 }

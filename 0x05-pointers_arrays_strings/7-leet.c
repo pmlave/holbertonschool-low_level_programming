@@ -3,6 +3,7 @@
 /**
  *leet - switching characters out with limited loops and conditionals
  *@s: given string
+ *Description: See above
  *Return: pointer to string value
  */
 

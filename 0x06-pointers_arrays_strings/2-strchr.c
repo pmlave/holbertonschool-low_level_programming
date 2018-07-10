@@ -13,7 +13,7 @@ char *_strchr(char *s, char c)
 			break;
 		s++;
 	}
-	if (*s == '\0')
+	if (*s == c)
 		return ((char *)s);
 	return ((char *)s);
 }

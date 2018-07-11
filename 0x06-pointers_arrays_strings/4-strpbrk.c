@@ -19,7 +19,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		a++;
 	}
-	if (accept[b] == '\0')
-		return (s + a);
-	return ((void *)0);
+	return (0);
 }

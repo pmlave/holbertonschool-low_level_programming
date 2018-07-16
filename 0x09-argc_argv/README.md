@@ -5,4 +5,5 @@ Learning about argc and argv
 file name
 2. Looping through and printing all arguments passed in
 3. Printing the result of 2 numbers multiplied
-4. 
+4. Adding any two numbers passed in, filtering out anything with a letter
+5. Giving minimal coins of change for any amount of money

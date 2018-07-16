@@ -7,3 +7,6 @@ Working with pointers
 4. Printing a string in reverse.
 5. Reversing a given string.
 6. Printing every other character in a string.
+7. Printing half of a string.
+8. Printing the values stored in an array.
+9. Copying string values to destination.

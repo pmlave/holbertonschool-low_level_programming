@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _str_concat - concatenating two strings into a new memory location
+ * str_concat - concatenating two strings into a new memory location
  * @s1: Given string passed in
  * @s2: Second string passed in
  * Return: Pointer to new memory location
@@ -12,6 +12,10 @@ char *str_concat(char *s1, char *s2)
 	int size1, size2, i1, i2;
 	char *ar;
 
+	if (s1 == '\0')
+		s1 = "";
+	if (s2 == '\0')
+		s2 = "";
 	size1 = 0;
 	while (s1[size1] != '\0')
 		size1++;

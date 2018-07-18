@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdlib.h>
+#include <stdlib.h
 /**
  * alloc_grid - allocating memory for a 2d array
  * @width: Width of array
@@ -17,7 +17,7 @@ int **alloc_grid(int width, int height)
 	dbl = malloc(height * (sizeof(int *)));
 	if (dbl != NULL)
 	{
-		for (a = 0; a < width; a++)
+		for (a = 0; a < height; a++)
 		{
 			ar = malloc(width * (sizeof(int)));
 			if (ar != NULL)
@@ -30,12 +30,13 @@ int **alloc_grid(int width, int height)
 			}
 			else
 			{
+				a--;
 				while (a >= 0)
 				{
-					free (dbl[a]);
+					free(dbl[a]);
 					a--;
 				}
-				free (dbl);
+				free(dbl);
 				return (NULL);
 			}
 		}

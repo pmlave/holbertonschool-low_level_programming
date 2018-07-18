@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdlib.h
+#include <stdlib.h>
 /**
  * alloc_grid - allocating memory for a 2d array
  * @width: Width of array

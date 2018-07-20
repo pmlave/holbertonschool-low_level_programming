@@ -44,12 +44,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			}
 			else
 			{
-				ar[a] = s2[a - i - 1]; /* changed value of i to
-							  1 less than length to
-							  account for null on s1
-						       */
+				ar[a] = s2[a - i - 1];
 			}
 		}
+		ar[a] = '\0';
 	}
 	return (ar);
 }

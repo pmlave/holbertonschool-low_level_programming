@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * string_concat - concatenate two strings
+ * string_nconcat - concatenate two strings
  * @s1: Sirst string to set
  * @s2: Second string to concatenate
  * @n: Number of bytes by which to limit s2
@@ -44,7 +44,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			}
 			else
 			{
-				ar[a] = s2[a - i];
+				ar[a] = s2[a - i - 1]; /* changed value of i to
+							  1 less than length to
+							  account for null on s1
+						       */
 			}
 		}
 	}

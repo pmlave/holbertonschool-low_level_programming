@@ -1,15 +1,20 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 #include <stdio.h>
+/**
+ * print_all - printing any value given
+ * @format: String containing type of value passed in
+ * Return: Void
+ */
 void print_all(const char * const format, ...)
 {
 	va_list list;
 	int i;
 	char *str;
 
-	va_start (list, format);
+	va_start(list, format);
 	i = 0;
-	while (format[i] != '\0')
+	while (format && format[i] != '\0')
 	{
 		switch (format[i])
 		{
@@ -24,7 +29,7 @@ void print_all(const char * const format, ...)
 			break;
 		case 's':
 			str = va_arg(list, char *);
-			if(str == NULL)
+			if (str == NULL)
 			{
 				printf("(nil)");
 				break;

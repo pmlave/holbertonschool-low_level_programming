@@ -1,5 +1,6 @@
 #include "lists.h"
 /**
+ * add_node - adding a node at the end of a list
  * @head: Pointer to address pointer
  * @str: String to copy
  * Return: Address of new element

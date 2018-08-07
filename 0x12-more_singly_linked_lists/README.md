@@ -8,4 +8,4 @@ More singly linked lists
 5. Free the memory of the list starting from a double pointer.
 6. Deleting a node from the list.
 7. Returning a specific list element.
-8.
+8. Summing all list elements.

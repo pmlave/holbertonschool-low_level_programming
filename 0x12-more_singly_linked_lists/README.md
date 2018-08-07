@@ -4,3 +4,5 @@ More singly linked lists
 1. Printing the number of nodes.
 2. Adding a new node at the beginning.
 3. Adding a new node at the end.
+4. Free the memory of the list.
+5. Free the memory of the list starting from a double pointer.

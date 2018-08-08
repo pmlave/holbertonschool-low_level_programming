@@ -9,3 +9,5 @@ More singly linked lists
 6. Deleting a node from the list.
 7. Returning a specific list element.
 8. Summing all list elements.
+9. Adding an element at a specific index.
+10. Deleting an element at a specific index.

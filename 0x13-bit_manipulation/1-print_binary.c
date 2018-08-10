@@ -7,7 +7,7 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned int pow = 1;
+	unsigned long int pow = 1;
 	int count = 0;
 
 	if (n == 0)

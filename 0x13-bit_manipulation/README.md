@@ -4,3 +4,4 @@ Bitwise operations
 1. Printing a given integer as a binary number.
 2. Getting an index value from a given integer.
 3. Setting an index value bit to 1.
+4. Clearing a bit at a given index.

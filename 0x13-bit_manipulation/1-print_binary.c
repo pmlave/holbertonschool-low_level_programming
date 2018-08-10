@@ -7,40 +7,9 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int pow = 1;
-	int count = 0;
+	unsigned long int pow = n;
 
-	if (n == 0)
-	{
-		_putchar('0');
-		return;
-	}
-	if (n == 1)
-	{
-		_putchar('1');
-		return;
-	}
-	while (pow <= n)
-	{
-		pow *= 2;
-		count++;
-	}
-	_putchar('1');
-	pow = pow >> 1;
-	n = n - pow;
-
-	while (count > 1)
-	{
-		pow = pow >> 1;
-		if (n >= pow)
-		{
-			_putchar('1');
-			n = n - pow;
-		}
-		else
-			_putchar('0');
-		count--;
-
-	}
-
+	if (pow > 1)
+		print_binary(n >> 1);
+	_putchar((pow & 1) + '0');
 }

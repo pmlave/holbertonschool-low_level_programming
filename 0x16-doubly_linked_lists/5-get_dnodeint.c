@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_dnotdeint_at_index - get a node at a certain index
+ * get_dnodeint_at_index - get a node at a certain index
  * @head: Pointer to head node
  * @index: Index from which to pull node
  * Return: Node or NULL if DNE

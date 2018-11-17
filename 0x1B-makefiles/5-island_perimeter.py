@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 '''Python module containing island_perimeter function'''
+
+
 def island_perimeter(grid):
     '''Function to find the perimeter of an 'island' in a list of lists'''
     perimeter = 0

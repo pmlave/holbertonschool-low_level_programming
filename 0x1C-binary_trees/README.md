@@ -12,3 +12,5 @@
 7. Printing with in-order traversal.
 8. Printing with post-order traversal.
 9. Calculate the height of the binary tree.
+10. Calculate the depth of a node on the tree.
+11. Calculate the size (number of nodes) on the tree.

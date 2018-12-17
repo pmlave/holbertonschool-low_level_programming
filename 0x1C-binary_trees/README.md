@@ -11,3 +11,4 @@
 6. Printing the data of all nodes in pre-order traversal.
 7. Printing with in-order traversal.
 8. Printing with post-order traversal.
+9. Calculate the height of the binary tree.

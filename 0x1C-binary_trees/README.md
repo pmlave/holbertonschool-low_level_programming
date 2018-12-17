@@ -9,3 +9,5 @@
 4. Checking if a certain node is a leaf.
 5. Checking if a certain node is the root.
 6. Printing the data of all nodes in pre-order traversal.
+7. Printing with in-order traversal.
+8. Printing with post-order traversal.

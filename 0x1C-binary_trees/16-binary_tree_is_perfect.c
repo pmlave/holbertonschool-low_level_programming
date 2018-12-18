@@ -52,7 +52,8 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (j);
 	return (i);
 }
- /**
+
+/**
  * binary_tree_is_full - checking if the binary tree is full
  * @tree: Pointer to the root node
  * Return: 1 if yes, 0 if no

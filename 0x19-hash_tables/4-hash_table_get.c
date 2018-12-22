@@ -9,18 +9,18 @@
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	hash_node_t *returning;
+	hash_node_t *ret_val;
 	unsigned long int index;
 
 	if (!ht || !key || !*key)
 		return (NULL);
 	index = key_index((const unsigned char *)key, ht->size);
-	returning = ht->array[index];
-	while (returning)
+	ret_val = ht->array[index];
+	while (ret_val)
 	{
-		if (strcmp(returning->key, key) == 0)
-			return (returning->value);
-		returning = returning->next;
+		if (strcmp(ret_val->key, key) == 0)
+			return (ret_val->value);
+		ret_val = ret_val->next;
 	}
 	return (NULL);
 }

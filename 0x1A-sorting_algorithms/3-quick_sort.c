@@ -15,6 +15,15 @@ void quick_sort(int *array, size_t size)
 		return;
 }
 
+/**
+ * partition - the actual sorting algorithm for quicksort
+ * @array: Given array to sort
+ * @start: Start of the array
+ * @end: End of the array
+ * @size: Size of the array
+ * Return: Void
+ */
+
 void partition(int *array, size_t start, size_t end, size_t size)
 {
 	int piv;
@@ -38,10 +47,8 @@ void partition(int *array, size_t start, size_t end, size_t size)
 		}
 		i++;
 	}
-/**
- * recurse back through partition while incrementing or decrementing start
- * or end values
- */
+/* recurse back through partition while incrementing or decrementing start */
+/* or end values */
 	if (j > start + 1)
 		partition(array, start, j - 1, size);
 	if (j < end - 1)
@@ -56,7 +63,7 @@ void partition(int *array, size_t start, size_t end, size_t size)
  * Return: Void
  */
 
-void swap(int* a, int* b)
+void swap(int *a, int *b)
 {
 	int t = *a;
 	*a = *b;

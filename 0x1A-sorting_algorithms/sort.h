@@ -18,13 +18,15 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
-/* print functions */
+/* print and swap functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+void swap(int* a, int* b);
 /* project functions */
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+void partition(int *array, size_t start, size_t end, size_t size);
 
 #endif
